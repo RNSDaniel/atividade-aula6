@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  box-sizing: border-box;
+  background: #000;
+  color: #f6f6f6;
+  font-family: "Montserrat", sans-serif;
+  margin: 5% 5%;
+}
+
+h1 {
+  color: #22d4fd;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.cabecalho__conteudo {
+  padding: 21.5px 0;
+  gap: 40px;
+}
+
+.receita {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.links {
+  width: 150px;
+  background-color: #22d4fd;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 15px;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+  padding: 0.5%;
+}
+
+.tabela {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.imagem {
+  height: 300px;
+  width: 400px;
+}
+
+.tabela .titulo-tabela {
+  background-color: khaki;
+  color: #000000;
+}
+
+.noticia {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: first baseline;
+  font-size: 12px;
+  color: #22d4fd;
+}
